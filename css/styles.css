@@ -1,0 +1,124 @@
+* {
+  font-family: 'Lato', sans-serif; }
+
+.jarallax {
+  position: relative;
+  z-index: 0; }
+
+.jarallax > .jarallax-img {
+  position: absolute;
+  object-fit: cover;
+  /* support for plugin https://github.com/bfred-it/object-fit-images */
+  font-family: 'object-fit: cover;';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+html {
+  margin: 0px;
+  padding: 0px; }
+  html body {
+    margin: 0px;
+    padding: 0px; }
+    html body .row {
+      margin-left: 0px;
+      margin-right: 0px; }
+    html body .container {
+      max-width: 1032px; }
+    html body section {
+      margin: 12% 0px; }
+    html body h1 {
+      font-size: 52px;
+      font-weight: 600;
+      font-style: normal; }
+    html body h2 {
+      font-size: 32px;
+      font-weight: 600;
+      font-style: normal;
+      margin-bottom: 1%; }
+    html body h3 {
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal; }
+      html body h3.uppercase {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-bottom: 1%; }
+    html body h4 {
+      font-size: 24px; }
+    html body h5 {
+      font-size: 18px; }
+    html body li {
+      margin: 16px 0px; }
+    html body a, html body p, html body span, html body li {
+      font-size: 16px;
+      color: #000;
+      text-decoration: none; }
+    html body img {
+      display: block; }
+    html body p {
+      line-height: 1.7;
+      margin-bottom: 20px;
+      max-width: 95%; }
+    html body a {
+      position: relative;
+      color: #1177ff; }
+      html body a.btn {
+        display: inline-block;
+        margin-top: 20px;
+        background: #1177ff;
+        padding: 11px 18px;
+        color: #fff;
+        font-weight: 700;
+        transition: all .1s ease-in-out;
+        -webkit-transition: all .1s ease-in-out;
+        -moz-transition: all .1s ease-in-out; }
+        html body a.btn:hover {
+          background: #000;
+          color: #fff; }
+      html body a.btn-secondary {
+        display: inline-block;
+        margin-top: 20px;
+        background: transparent;
+        padding: 11px 18px;
+        color: #1177ff;
+        border: 1px solid #1177ff;
+        font-weight: 700;
+        transition: all .1s ease-in-out;
+        -webkit-transition: all .1s ease-in-out;
+        -moz-transition: all .1s ease-in-out; }
+        html body a.btn-secondary:hover {
+          background: #000;
+          color: #fff;
+          border-color: #000; }
+      html body a:hover::after {
+        width: 100%; }
+      html body a:hover i {
+        opacity: 1; }
+      html body a i {
+        opacity: 0;
+        transition: all .1s ease-in-out;
+        -webkit-transition: all .1s ease-in-out;
+        -moz-transition: all .1s ease-in-out;
+        color: #1177ff; }
+    html body img {
+      max-width: 100%; }
+
+header img {
+  display: inline-block;
+  width: 160px;
+  margin-top: 20px; }
+
+footer {
+  margin-bottom: 60px; }
+
+.box-icon {
+  width: 128px;
+  margin-bottom: 40px; }
+
+.masthead {
+  margin-top: 6%; }
+  .masthead p {
+    max-width: 90%; }
