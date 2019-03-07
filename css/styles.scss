@@ -144,6 +144,10 @@ header {
 	}
 }
 
+.text-white {
+	color: #fff;
+}
+
 footer {
 	margin-bottom: 60px;
 }
@@ -151,6 +155,25 @@ footer {
 .box-icon {
 	width: 128px;
 	margin-bottom: 40px;
+}
+
+.lead-capture {
+	background: $primary;
+	max-height: 600px;
+	img {
+		opacity: .2;
+	}
+	.form {
+		margin-top: -20px;
+		max-width: 100%;
+		background: #fff;
+		padding: 48px 48px;
+		box-shadow: 0 2px 24px 0 rgba(0,0,0,0.50);
+		-webkit-box-shadow: 0 2px 24px 0 rgba(0,0,0,0.50);
+		iframe {
+			max-width: 100%;
+		}
+	}
 }
 
 .masthead {

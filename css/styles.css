@@ -111,12 +111,30 @@ header img {
   width: 160px;
   margin-top: 20px; }
 
+.text-white {
+  color: #fff; }
+
 footer {
   margin-bottom: 60px; }
 
 .box-icon {
   width: 128px;
   margin-bottom: 40px; }
+
+.lead-capture {
+  background: #1177ff;
+  max-height: 600px; }
+  .lead-capture img {
+    opacity: .2; }
+  .lead-capture .form {
+    margin-top: -20px;
+    max-width: 100%;
+    background: #fff;
+    padding: 48px 48px;
+    box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.5); }
+    .lead-capture .form iframe {
+      max-width: 100%; }
 
 .masthead {
   margin-top: 6%; }
