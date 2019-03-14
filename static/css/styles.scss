@@ -136,6 +136,53 @@ html {
 	}
 }
 
+.topper {
+	margin-top: 0px !important;
+}
+
+.steps-navigation {
+	background: #041E40;
+	padding: 60px 0px;
+	.circle {
+		margin: 0 auto;
+		background: #FFAF51;
+		border-radius: 50%;
+		height: 128px;
+		width: 128px;
+		line-height: 128px;
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		&:hover {
+			background: $primary;
+		}
+		i {
+			color: #fff;
+			font-size: 52px;
+			display: block;
+			line-height: 128px;
+		}
+	}
+	img {
+		margin-top: 0px !important;
+	}
+	h3 {
+		color: #fff;
+		font-size: 22px !important;
+		margin-bottom: 0px !important;
+	}
+	p {
+		color: #fff;
+	}
+	a {
+		color: #fff;
+		opacity: .5;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
 header {
 	padding: 20px 0px;
 	img {

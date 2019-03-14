@@ -106,6 +106,43 @@ html {
     html body img {
       max-width: 100%; }
 
+.topper {
+  margin-top: 0px !important; }
+
+.steps-navigation {
+  background: #041E40;
+  padding: 60px 0px; }
+  .steps-navigation .circle {
+    margin: 0 auto;
+    background: #FFAF51;
+    border-radius: 50%;
+    height: 128px;
+    width: 128px;
+    line-height: 128px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer; }
+    .steps-navigation .circle:hover {
+      background: #1177ff; }
+    .steps-navigation .circle i {
+      color: #fff;
+      font-size: 52px;
+      display: block;
+      line-height: 128px; }
+  .steps-navigation img {
+    margin-top: 0px !important; }
+  .steps-navigation h3 {
+    color: #fff;
+    font-size: 22px !important;
+    margin-bottom: 0px !important; }
+  .steps-navigation p {
+    color: #fff; }
+  .steps-navigation a {
+    color: #fff;
+    opacity: .5; }
+    .steps-navigation a:hover {
+      opacity: 1; }
+
 header {
   padding: 20px 0px; }
   header img {
