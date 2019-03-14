@@ -254,7 +254,9 @@ footer {
     display: inline-block; }
 
 .masthead {
-  margin-top: 0px; }
+  margin-top: 0px;
+  position: relative;
+  width: 100%; }
   .masthead p {
     max-width: 90%;
     color: #fff;
@@ -293,6 +295,30 @@ footer {
         background: #1177ff; }
   .masthead h2 {
     margin-top: 0px; }
+  .masthead .box {
+    position: relative;
+    z-index: 8; }
+    .masthead .box.text p {
+      line-height: 31px;
+      font-size: 18px; }
+  .masthead .masthead-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    background-image: linear-gradient(222deg, rgba(255, 175, 81, 0.61) 1%, rgba(4, 30, 64, 0.5) 57%, #041e40 91%); }
+
+.content-page h2 {
+  margin-top: 60px; }
+
+.review {
+  margin: 20px 0px; }
+  .review p {
+    font-size: 18px; }
 
 .btn.btn-primary {
   background: #FFAF51;
