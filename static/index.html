@@ -36,9 +36,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 			<div class="col-xs-12 col-md-8 end-md center-xs" data-aos="fade-down" data-aos-delay="400">
 				<div class="box">
+					<div class="menu-toggle">
+						<a href="javascript://">Navigation</a>
+					</div>
 					<nav>
 						<ul>
-							<li><a href="">Home</a></li>
+							<li><a href="./">Home</a></li>
 							<li><a href="./why-solar.html">Why Solar</a></li>
 							<li><a href="./solar-options.html">Solar Options</a></li>
 							<li><a href="">FAQ</a></li>
@@ -312,6 +315,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 </footer>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <script>
   (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -353,6 +359,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     jarallax(document.querySelectorAll('.jarallax'), {
 	    speed: 0.1
 	});
+
+	$(function () {
+		
+			'use strict';
+			
+			$('.menu-toggle').click(function(){
+				$('header').toggleClass('active');
+			})
+
+		
+	})(jQuery, this);
   </script>
 
 </body>
