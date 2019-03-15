@@ -142,6 +142,11 @@ html {
     opacity: .5; }
     .steps-navigation a:hover {
       opacity: 1; }
+  @media all and (max-width: 767px) {
+    .steps-navigation p {
+      margin-bottom: 20px !important; }
+    .steps-navigation .circle {
+      margin-top: 60px; } }
 
 header {
   padding: 20px 0px; }
@@ -204,6 +209,7 @@ footer {
         color: #fff; }
     footer .address .social {
       margin: 0px 0px;
+      padding: 0px;
       list-style-type: none; }
       footer .address .social li {
         display: inline-block;
@@ -213,6 +219,25 @@ footer {
           footer .address .social li a i {
             color: #fff;
             opacity: 1; }
+  @media all and (max-width: 767px) {
+    footer {
+      padding: 20px 0px; }
+      footer input {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        float: none;
+        margin: 16px auto; }
+      footer .address {
+        margin-top: 0px; }
+      footer h3 {
+        margin-top: 60px; }
+      footer .social li {
+        margin: 16px; }
+      footer i {
+        font-size: 32px; }
+      footer img {
+        margin-bottom: 30px; } }
 
 .step .box-icon {
   width: 128px;

@@ -181,6 +181,14 @@ html {
 			opacity: 1;
 		}
 	}
+	@media all and (max-width: 767px) {
+		p {
+			margin-bottom: 20px !important;
+		}
+		.circle {
+			margin-top: 60px;
+		}
+	}
 }
 
 header {
@@ -261,6 +269,7 @@ footer {
 		}
 		.social {
 			margin: 0px 0px;
+			padding: 0px;
 			list-style-type: none;
 			li {
 				display: inline-block;
@@ -273,6 +282,33 @@ footer {
 					}
 				}
 			}
+		}
+	}
+	@media all and (max-width: 767px) {
+		padding: 20px 0px;
+		input {
+			width: 100%;
+			display: block;
+			box-sizing: border-box;
+			float: none;
+			margin: 16px auto;
+		}
+		.address {
+			margin-top: 0px;
+		}
+		h3 {
+			margin-top: 60px;
+		}
+		.social {
+			li {
+				margin: 16px;
+			}
+		}
+		i {
+			font-size: 32px;
+		}
+		img {
+			margin-bottom: 30px;
 		}
 	}
 }
